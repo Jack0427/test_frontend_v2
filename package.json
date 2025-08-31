@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "type-check": "vue-tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
     "@nuxt/image": "^1.11.0",
@@ -36,6 +37,7 @@
     "postcss-pxtorem": "^6.1.0",
     "prettier": "^3.6.2",
     "sass": "^1.90.0",
+    "typescript": "^5.9.2",
     "unocss": "^65.5.0",
     "vue-tsc": "^3.0.5"
   }
