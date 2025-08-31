@@ -2,4 +2,44 @@
   font-family:
     Noto Sans TC,
     serif;
+  
+  background: #2a2a2a;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  td, th{
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+  }
+  tbody tr {
+    border-bottom: solid 1px #888;
+  }
+}
+button {
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+
+.mt-2 {
+  margin-block-start: 8px;
+}
+.mt-8 {
+  margin-block-start: 32px;
+}
+.mb-5 {
+  margin-block-end: 20px
 }

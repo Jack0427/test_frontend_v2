@@ -1,4 +1,17 @@
 {
   "welcome": "歡迎",
-  "test": "測試"
+  "test": "測試",
+  "name": "名字",
+  "age": "年齡",
+  "operate": "操作",
+  "update": "修改",
+  "add": "新增",
+  "delete": "刪除",
+  "submit":"送出",
+  "cancel": "取消",
+  "success": "成功",
+  "fail": "失敗",
+  "update_message": "是否修改{name}?",
+  "add_message": "是否新增{name}?",
+  "delete_message": "是否刪除{name}?"
 }
